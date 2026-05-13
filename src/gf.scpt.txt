@@ -1,0 +1,6 @@
+on alfred_script(q)
+  tell application "Ghostty"
+    set currentDir to working directory of focused terminal of selected tab of front window
+  end tell
+  do shell script "open " & quoted form of currentDir
+end alfred_script

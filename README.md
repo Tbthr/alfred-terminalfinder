@@ -1,6 +1,6 @@
 # alfred-terminalfinder
 
-Alfred workflow to open current Finder window in Terminal/iTerm and vice versa.
+Alfred workflow to open current Finder window in Terminal/iTerm/Ghostty and vice versa.
 
 <img src="https://raw.github.com/LeEnno/alfred-terminalfinder/master/tf_icon_sm.png" width="128" height="128">
 
@@ -12,17 +12,8 @@ Install workflow and enter following keywords depending on what you want to achi
 - `tf`: open current **Terminal** directory in **Finder**
 - `fi`: open current **Finder** directory in **iTerm**
 - `if`: open current **iTerm** directory in **Finder**
-
-Thanks to @olibob we also have [Path Finder](http://www.cocoatech.com/ "Path Finder 6 by Cocoatech") support:
-
-- `pt`: open current **Path Finder** directory in **Terminal**
-- `tp`: open current **Terminal** directory in **Path Finder**
-- `pi`: open current **Path Finder** directory in **iTerm**
-- `ip`: open current **iTerm** directory in **Path Finder**
-
-Thanks to [@raghavpillai](https://github.com/raghavpillai) we also have [Warp](https://www.warp.dev) support:
-
-- `fw`: open current **Finder** directory in **Warp**
+- `fg`: open current **Finder** directory in **Ghostty**
+- `gf`: open current **Ghostty** directory in **Finder**
 
 In addition the search result in Alfred will show you what the action will do in its subtitle, i.e. `ft`:
 
